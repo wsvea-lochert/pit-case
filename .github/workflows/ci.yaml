@@ -18,6 +18,9 @@ jobs:
       - name: Lint
         run: pnpm lint
 
+      - name: build
+        run: pnpm build
+
   test:
     runs-on: ubuntu-latest
     steps:
