@@ -1,0 +1,44 @@
+{
+    "tabWidth": 4,
+    "printWidth": 100,
+    "useTabs": false,
+    "semi": true,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "bracketSpacing": true,
+    "endOfLine": "lf",
+    "importOrder": [
+        "^[./]"
+    ],
+    "importOrderSeparation": false,
+    "importOrderSortSpecifiers": true,
+    "importOrderParserPlugins": [
+        "typescript",
+        "jsx",
+        "decorators-legacy"
+    ],
+    "plugins": [
+        "@trivago/prettier-plugin-sort-imports"
+    ],
+    "overrides": [
+        {
+            "files": "*.ts",
+            "options": {
+                "parser": "typescript"
+            }
+        },
+        {
+            "files": "*.tsx",
+            "options": {
+                "parser": "typescript"
+            }
+        },
+        {
+            "files": "*.jsx",
+            "options": {
+                "parser": "babel"
+            }
+        }
+    ]
+}
