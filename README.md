@@ -6,7 +6,4 @@
 - [x] Setup vitest
 - [x] Setup eslint
 - [x] Setup prettier
-- [x] Setup husky
-- [x] Setup lint-staged
-- [x] Setup vitest
-- [x] Setup vitest
+- [x] Setup netlify deployment
